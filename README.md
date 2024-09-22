@@ -12,7 +12,3 @@ Aside from the attached bikeshare.py script, there are three datasets you will n
 * chicago.csv
 * new_york_city.csv
 * washington.csv
-
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
