@@ -181,7 +181,7 @@ def user_stats(df):
     print(user_types)
 
     # Display counts of gender
-    # Washington doesnt have gender counts, so we need to capture the exception 
+    # Washington doesnt have gender counts, so we need to capture the exception.
     print("\nGender counts are:\n")
     try:
         gender_counts = df.groupby('Gender').size().reset_index(name='Count')
@@ -215,8 +215,8 @@ def display_data(df):
 
 def main():
     while True:
-        #city, month, day = get_filters()
-        city, month, day = 'chicago', 'all', 'all'
+        city, month, day = get_filters()
+        #city, month, day = 'chicago', 'all', 'all'
         df = load_data(city, month, day)
         
         time_stats(df)
