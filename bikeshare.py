@@ -180,7 +180,7 @@ def user_stats(df):
     print(user_types)
 
     # Display counts of gender
-    # Washington doesnt have gender counts, so we need to capture the exception 
+    # Washington doesnt have gender counts, so we need to capture the exception.
     print("\nGender counts are:\n")
     try:
         gender_counts = df.groupby('Gender').size().reset_index(name='Count')
